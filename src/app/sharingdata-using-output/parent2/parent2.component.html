@@ -1,0 +1,9 @@
+
+<p>
+  parent works!
+</p>
+<div>
+Message from child: <b> {{message}}</b>
+</div>
+
+<app-child2 (messageEvent)="receiveMessage($event)"></app-child2>

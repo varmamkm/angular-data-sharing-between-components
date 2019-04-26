@@ -1,0 +1,9 @@
+<p>
+  parent works!
+</p>
+<div>
+  message to child 
+  <input type="text" [(ngModel)]="parentmessage">
+</div>
+
+<app-child [message]="parentmessage"></app-child>
